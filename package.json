@@ -1,0 +1,22 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "description": "fyle task",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-watch server.js",
+    "start": "babel-node server.js"
+  },
+  "author": "anu",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "ejs": "^2.6.1",
+    "mongoose": "^5.4.0"
+  }
+}
